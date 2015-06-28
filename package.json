@@ -1,0 +1,21 @@
+{
+  "name": "toilet-map",
+  "version": "1.0.0",
+  "description": "和歌山県内観光地の主な公共トイレを掲載したものです。",
+  "scripts": {
+    "start": "node node_modules/csvtojson/bin/csvtojson toilet-map.csv > toilet-map.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miya0001/toilet-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miya0001/toilet-map/issues"
+  },
+  "homepage": "https://github.com/miya0001/toilet-map#readme",
+  "dependencies": {
+    "csvtojson": "^0.3.21"
+  }
+}
